@@ -1,11 +1,10 @@
 package main
 
 import (
-	"alotoftime/taskservice"
+	"log"
 	"net/http"
 
-	"log"
-
+	"github.com/MISTikus/gotalotoftime/taskservice"
 	"github.com/julienschmidt/httprouter"
 )
 
